@@ -858,7 +858,7 @@ void Render()
 		InputHandler();
 		ImGui::SetNextWindowSize(ImVec2(675, 530));
 		ImGui::PushFont(DefaultFont);
-		ImGui::Begin("Hack Farlight 84", 0, ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoScrollbar);
+		ImGui::Begin("Mindware l discord.gg/xyFuZw7gdz l License: (01/01) l HWID: Criptografado l Mensal", 0, ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoScrollbar);
 
 		TabButton("Visuals", &CFG.tab_index, 0, true);
 		TabButton("Aimbot", &CFG.tab_index, 1, true);
@@ -948,14 +948,14 @@ void Render()
 		}
 		else if (CFG.tab_index == 4)
 		{
-			ImGui::Text("Farlight 84");
-			ImGui::Text("Fact");
-			ImGui::Text("Indetectavel");
+			ImGui::Text("Mindware");
+			ImGui::Text("Nao temos nenhum revendedor");
+			ImGui::Text("discord.gg/xyFuZw7gdz");
 			ImGui::Text("");
-			ImGui::Text("v2");
-			if (ImGui::Button(""))
+			ImGui::Text("Discord");
+			if (ImGui::Button("Discord Aqui"))
 			{
-				ShellExecute(0, 0, "", 0, 0, SW_SHOW);
+				ShellExecute(0, 0, "https://discord.com/invite/xyFuZw7gdz", 0, 0, SW_SHOW);
 				CFG.rick_rolled = true;
 			}
 			if (CFG.rick_rolled)
