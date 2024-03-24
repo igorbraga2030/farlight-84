@@ -54,9 +54,9 @@ inline namespace BloodHunt
 	public:
 
 		
-DWORD offset_u_world = 0x71662A8;// 48 8B 1D ? ? ? ? 48 85 DB 74 ? 41 B0 01 sub_7FF6523B26B0 mov rbx, cs : 7FF658411CE0h // 0x7026B0 or // 0x23B26B0 // 676 1CE0
-DWORD offset_g_names = 0x6FF5740;// 4C 8D 05 ? ? ? ? EB ? 48 8D 0D ? ? ? ? E8 sub_7FF6540BE2E0 db 48h; H 7FF651CB0000 // 0x240E2E0 7FF6582A2240
-DWORD offset_g_obj = 0x7025690;// 48 8B 05 ? ? ? ? 48 8B 0C C8 4C 8D 04 D1 .text:00007FF6525547D8 sub_7FF652554750 mov rax, cs:7FF6582BAA90h
+DWORD offset_u_world = 0x7167228;// 48 8B 1D ? ? ? ? 48 85 DB 74 ? 41 B0 01 sub_7FF6523B26B0 mov rbx, cs : 7FF658411CE0h // 0x7026B0 or // 0x23B26B0 // 676 1CE0
+DWORD offset_g_names = 0x6FF66C0;// 4C 8D 05 ? ? ? ? EB ? 48 8D 0D ? ? ? ? E8 sub_7FF6540BE2E0 db 48h; H 7FF651CB0000 // 0x240E2E0 7FF6582A2240
+DWORD offset_g_obj = 0x7026610;// 48 8B 05 ? ? ? ? 48 8B 0C C8 4C 8D 04 D1 .text:00007FF6525547D8 sub_7FF652554750 mov rax, cs:7FF6582BAA90h
 //Camera
 DWORD offset_camera_manager = 0x02E8; // APlayerController->PlayerCameraManager
 DWORD offset_camera_cache = 0x1c80 ; //APlayerCameraManager->CameraCachePrivate0x2230
